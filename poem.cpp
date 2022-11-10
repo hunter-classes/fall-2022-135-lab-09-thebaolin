@@ -7,11 +7,12 @@ string * createAPoemDynamically() {
     return p;
 }
 
+
 int main() {
     while(true) {
         string *p;
         p = createAPoemDynamically();
-
+        delete p;
         // assume that the poem p is not needed at this point
 
     }
