@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include "funcs.h"
-
-// add functions here
+using namespace std;
 
 double length(Coord3D *p){
     return sqrt(pow(p->x,2) + pow(p->y,2) + pow(p->z,2));
@@ -25,7 +24,6 @@ Coord3D* createCoord3D(double x, double y, double z){
     Coord3D *point = new Coord3D;
     *point = {x, y, z};
     return point;
-
 }
 
 void deleteCoord3D(Coord3D *p){

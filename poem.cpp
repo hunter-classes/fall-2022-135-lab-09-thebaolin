@@ -13,7 +13,5 @@ int main() {
         string *p;
         p = createAPoemDynamically();
         delete p;
-        // assume that the poem p is not needed at this point
-
     }
 }
