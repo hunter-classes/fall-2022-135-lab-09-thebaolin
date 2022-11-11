@@ -4,7 +4,7 @@
 
 int main()
 { 
-  Coord3D pointP = {5,15,20};
+  Coord3D pointP = {1.1, 2.2, 3.3};
   Coord3D pointQ = {-20, 10, -5};
 
   Coord3D pos = {0, 0, 100.0};
